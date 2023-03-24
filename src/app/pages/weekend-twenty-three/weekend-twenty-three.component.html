@@ -1,0 +1,57 @@
+<app-header></app-header>
+
+<div class="banner">
+	<img src="assets/weekend23.jpg" alt="Banner" class="banner">
+</div>
+
+<div class="description-box">
+	<h2>IMPORTANT INFORMATION</h2>
+	<p>
+	 We would like to ask all the participants to pay attention to the updates in that webpage. On Friday full information about the schedule and the technological approaches during the Weekend will be posted here.
+	</p>
+  </div>
+
+<div class="card-container"> 
+	<div *ngFor="let person of departmentData">
+		<div class="card">	
+			<img class="small-image" src="{{person.picture_url}}">
+			<div class="card-body">
+				<p class="card-text">{{person.name}}</p>
+				<p class="card-text">{{person.role}} </p>
+				<a href = {{person.linkedIn}} target="blank" rel="noopener noreferrer" class="linkedin-board">
+
+					<fa-icon class="a" [icon]="linkedInIcon"></fa-icon>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<br>
+
+<h2 class="sponsors-title">Sponsors</h2>
+
+<div class="slider">
+	<div class="slide-track">
+        <div class="slide">
+			<img style="height: 6.25rem; width: auto" />
+		</div>
+    <div class="slide" *ngFor="let imgSrc of imageSrc1">
+			<img [src]="imgSrc" style="height: 6.25rem; width: auto" />
+		</div>
+	</div>
+</div>
+ 
+<div class="slider">
+	<div class="slide-track">
+        <div class="slide">
+			<img style="height: 6.25rem; width: auto" />
+		</div>
+    <div class="slide" *ngFor="let imgSrc of imageSrc2">
+			<img [src]="imgSrc" style="height: 6.25rem; width: auto" />
+		</div>
+	</div>
+</div>
+<div id="footer">
+    StartUP@Blagoevgrad 2023 | All rights reserved.
+</div> 

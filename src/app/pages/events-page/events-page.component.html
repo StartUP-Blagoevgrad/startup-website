@@ -1,0 +1,68 @@
+<app-header></app-header>
+
+<div class="tab-container">
+    <button [ngClass]="{ 'conference-button': selectedEndpoint == '/speakers', 'tab-button': true, 'active': selectedEndpoint == '/conference' }" (click)="loadDepartment('/conference')">Conference</button>
+    <button [ngClass]="{ 'weekend-button': selectedEndpoint == '/weekend', 'tab-button': true, 'active': selectedEndpoint == '/weekend' }" (click)="loadDepartment('/weekend')">Weekend</button>
+  </div>
+
+<div *ngIf="selectedEndpoint === '/weekend'">
+<div class="banner-container">
+    <img src="assets/events/weekend/weekend.jpg" alt="Page Banner" class="banner-image" />
+    <div class="banner-title">
+      <h1>StartUP Weekend</h1>
+      <div class="scroll-arrow">&#x2193;</div>
+    </div>
+  </div>
+  <div class="description-box">
+    <h2>About the Event</h2>
+    <p>
+        The second big event that StartUP organizes is the StartUP Weekend. It is a 3-day-long event, taking place from Friday until Sunday, in which pre-formed teams of students are posed with the challenge to come up with an original idea for a start-up. Throughout the weekend, they have to validate, develop, polish it out, and present it in front of a professional jury, who then decide on which 3 ideas and executions are the best. During the three days of the event, the teams have successful entrepreneurs as mentors, who are there to help them and ensure that their ideas are ready to be presented and seen by the judges.
+    </p>
+  </div>
+  <div class="media-content">
+    <div class="video-container">
+      <iframe
+        width="100%"
+        height="100%"
+        src="https://www.youtube.com/embed/rwtviNEwc4Q"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+</div>
+<div *ngIf="selectedEndpoint === '/conference'">
+    <div class="banner-container">
+        <img src="assets/events/conference/conference.png" alt="Page Banner" class="banner-image" />
+        <div class="banner-title">
+          <h1>StartUP Conference</h1>
+          <div class="scroll-arrow">&#x2193;</div>
+        </div>
+      </div>
+      <div class="description-box">
+        <h2>About the Event</h2>
+        <p>
+            The StartUP Conference is the first event that the club hosts during the academic year, which usually takes place in the fall semester. It is an evening-long event, packed full of interesting speeches and discussions with the aim of bringing together successful entrepreneurs who share their experiences and valuable professional and life advice with our university students.
+        </p>
+      </div>
+      <div class="media-content">
+        <div class="video-container">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FStartUPBlagoevgrad%2Fvideos%2F892774118404808%2F&show_text=false&width=560&t=0"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  <div id="footer">
+    StartUP@Blagoevgrad 2023 | All rights reserved.
+</div> 
+
+  
+  
+  

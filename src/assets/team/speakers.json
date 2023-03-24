@@ -1,0 +1,72 @@
+[
+    {
+		"name": "Antonia Rusalieva",
+		"role": "Head of Department",
+		"picture_url": "assets/team_pics/speakers_pics/toncheto.png",
+		"linkedIn": "https://www.linkedin.com/in/antonia-rusalieva-b495021b8/",
+		"email": "antonia.rusalieva@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Aleksandar Zemlyakov",
+		"role": "",
+		"picture_url": "assets/team_pics/speakers_pics/zemlyakov.png",
+		"linkedIn": "https://www.linkedin.com/in/aleksandar-zemlyakov-b53b851a4/",
+		"email": "aleksandar.zemlyakov@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Aleksandrina Andonova",
+		"role": "",
+		"picture_url": "assets/team_pics/speakers_pics/sanda.png",
+		"linkedIn": "https://www.linkedin.com/in/aleksandrina-andonova-19b7951b8/",
+		"email": "aleksandrina.andonova@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Diana Evtimova",
+		"role": "",
+		"picture_url": "assets/team_pics/speakers_pics/diana.png",
+		"linkedIn": "https://www.linkedin.com/in/diana-evtimova-840b77241",
+		"email": "diana.evtimova@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Elena Zaharieva",
+		"role": "",
+		"picture_url": "assets/team_pics/speakers_pics/elizaharieva.png",
+		"linkedIn": "https://www.linkedin.com/in/elena-zaharieva-2884071b6/",
+		"email": "elena.zaharieva@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Emilia Shirinyan",
+		"role": "",
+		"picture_url": "assets/team_pics/speakers_pics/emi.png",
+		"linkedIn": "https://www.linkedin.com/in/emilia-shirinyan-8765aa1b3/",
+		"email": "emilia.shirinyan@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Martin Stanchev",
+		"role": "",
+		"picture_url": "assets/team_pics/speakers_pics/stanchevb.png",
+		"linkedIn": "https://www.linkedin.com/in/martin-stanchev-b72a911a9/",
+		"email": "martin.stanchev@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Martin Stoilkov",
+		"role": "",
+		"picture_url": "assets/team_pics/speakers_pics/stoilkov.png",
+		"linkedIn": "https://www.linkedin.com/in/martin-stoilkov-3996071b0",
+		"email": "martin.stoilkov@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Mihail Varnaliev",
+		"role": "",
+		"picture_url": "assets/team_pics/speakers_pics/misho.png",
+		"linkedIn": "https://www.linkedin.com/in/mihail-varnaliev-759a98239/",
+		"email": "mihail.varnaliev@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Yoana Stoimenova",
+		"role": "",
+		"picture_url": "assets/team_pics/speakers_pics/Yoana.png",
+		"linkedIn": "https://www.linkedin.com/in/yoana-stoimenova-842342234/",
+		"email": "yoana.stoimenova@startupatblagoevgrad.org"
+	}
+]

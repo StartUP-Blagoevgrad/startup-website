@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Denis Milanov",
+        "role": "Head of Department",
+        "picture_url": "assets/team_pics/it_pics/denis.png",
+        "linkedIn": "https://www.linkedin.com/in/denis-milanov-a04603200/",
+        "email": "denis.milanov@startupatblagoevgrad.org"
+    },
+    {
+        "name": "Aleks Atanasov",
+        "role": "",
+        "picture_url": "assets/team_pics/it_pics/aleks.png",
+        "linkedIn": "https://www.linkedin.com/in/aleks-atanasov/",
+        "email": "aleks.atanasov@startupatblagoevgrad.org"
+    },
+    {
+        "name": "Bozhidar Mindov",
+        "role": "",
+        "picture_url": "assets/team_pics/it_pics/bozhidar.png",
+        "linkedIn": "https://www.linkedin.com/in/bozhidar-mindov/",
+        "email": "bozhidar.mindov@startupatblagoevgrad.org"
+    },
+    {
+        "name": "Ekaterina Valeva",
+        "role": "",
+        "picture_url": "assets/team_pics/it_pics/kateto.png",
+        "linkedIn": "https://www.linkedin.com/in/ekaterina-valeva-066977200/",
+        "email": "ekaterina.valeva@startupatblagoevgrad.org"
+    },
+    {
+        "name": "Lora Klassanova",
+        "role": "",
+        "picture_url": "assets/team_pics/it_pics/lora.png",
+        "linkedIn": "https://www.linkedin.com/in/lora-klassanova-2ba657253/",
+        "email": "lora.klassanova@startupatblagoevgrad.org"
+    },
+    {
+        "name": "Petya Dimkina",
+        "role": "",
+        "picture_url": "assets/team_pics/it_pics/petya.png",
+        "linkedIn": "https://www.linkedin.com/in/petya-dimkina-54783b219",
+        "email": "petya.dimkina@startupatblagoevgrad.org"
+    },
+    {
+        "name": "Rumen Balashov",
+        "role": "",
+        "picture_url": "assets/team_pics/it_pics/rumbata.png",
+        "linkedIn": "https://www.linkedin.com/in/rumen-balashov-5030a823a/",
+        "email": "rumen.balashov@startupatblagoevgrad.org"
+    }
+]

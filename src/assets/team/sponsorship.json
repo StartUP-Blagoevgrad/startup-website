@@ -1,0 +1,79 @@
+[
+    {
+		"name": "Kris Petrov",
+		"role": "Co-Head of Department",
+		"picture_url": "assets/team_pics/sponsorship_pics/kris.png",
+		"linkedIn": "https://www.linkedin.com/in/kristian-petrov-57466b168/",
+		"email": "kris@startupatblagoevgrad.org"
+	},
+    {
+		"name": "Teodora Nikolova",
+		"role": "Co-head of Department",
+		"picture_url": "assets/team_pics/sponsorship_pics/tedinikolova.png",
+		"linkedIn": "https://www.linkedin.com/in/teodora-nikolova-97117026a",
+		"email": "teodora.nikolova@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Blagovest Stoyanov",
+		"role": "",
+		"picture_url": "assets/team_pics/sponsorship_pics/bagata.png",
+		"linkedIn": "https://www.linkedin.com/in/blagovest-stoyanov-09aa03250",
+		"email": "blagovest.stoyanov@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Elena Petrova",
+		"role": "",
+		"picture_url": "assets/team_pics/sponsorship_pics/elena.png",
+		"linkedIn": "http://linkedin.com/in/elena-zaharieva-b7932720a",
+		"email": "elena.petrova@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Georgi Vankov",
+		"role": "",
+		"picture_url": "assets/team_pics/sponsorship_pics/georgi.png",
+		"linkedIn": "https://www.linkedin.com/in/georgi-vankov-2a6411253/",
+		"email": "georgi.vankov@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Ivaylo Todorov",
+		"role": "",
+		"picture_url": "assets/team_pics/sponsorship_pics/ivaylo.png",
+		"linkedIn": "https://www.linkedin.com/in/ivaylo-todorov-2ab642183/",
+		"email": "ivaylo.todorov@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Lora Klassanova",
+		"role": "",
+		"picture_url": "assets/team_pics/sponsorship_pics/lora.png",
+		"linkedIn": "https://www.linkedin.com/in/lora-klassanova-2ba657253/",
+		"email": "lora.klassanova@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Martin Stoilkov",
+		"role": "",
+		"picture_url": "assets/team_pics/sponsorship_pics/stoilkov.png",
+		"linkedIn": "https://www.linkedin.com/in/martin-stoilkov-3996071b0",
+		"email": "martin.stoilkov@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Sofia Boneva",
+		"role": "",
+		"picture_url": "assets/team_pics/sponsorship_pics/sophie.png",
+		"linkedIn": "https://www.linkedin.com/in/sofia-boneva-aa4851211/",
+		"email": "sofia.boneva@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Teodora Miteva",
+		"role": "",
+		"picture_url": "assets/team_pics/sponsorship_pics/tedimiteva.png",
+		"linkedIn": "https://www.linkedin.com/in/teodora-miteva-34112a223/",
+		"email": "teodora.miteva@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Tomislav Tomov",
+		"role": "",
+		"picture_url": "assets/team_pics/sponsorship_pics/tomeca.png",
+		"linkedIn": "https://www.linkedin.com/in/tomislav-tomov-860852212",
+		"email": "tomislav.tomov@startupatblagoevgrad.org"
+	}
+]

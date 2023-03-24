@@ -1,0 +1,79 @@
+
+<app-header></app-header>
+<div class="team-container">
+    <div class="department-tabs" [ngClass]="{'board-tab': selectedEndpoint == '/board',
+    'speakers-tab': selectedEndpoint == '/speakers',
+    'it-tab': selectedEndpoint == '/it',
+    'marketing-tab': selectedEndpoint == '/marketing',
+    'sponsorship-tab': selectedEndpoint == '/sponsorship'
+    }">
+
+        <button [ngClass]="{ 'board-button': selectedEndpoint == '/board' }" (click)="loadDepartment('/board')">Board</button>
+        <button [ngClass]="{ 'speakers-button': selectedEndpoint == '/speakers' }" (click)="loadDepartment('/speakers')">Speakers</button>
+        <button [ngClass]="{ 'it-button': selectedEndpoint == '/it' }" (click)="loadDepartment('/it')">IT</button>
+        <button [ngClass]="{ 'marketing-button': selectedEndpoint == '/marketing' }" (click)="loadDepartment('/marketing')">Marketing</button>
+        <button [ngClass]="{ 'sponsorship-button': selectedEndpoint == '/sponsorship' }" (click)="loadDepartment('/sponsorship')">Sponsorship</button>
+
+    </div>
+    <div class="team-logo">
+        <div *ngIf="selectedEndpoint=='/board'" class="board">
+            <p class="text-board">Board</p>
+            <img src="assets\department_pics\board\Board_no_labels.png" class="giga-image">
+        </div>
+        <div *ngIf="selectedEndpoint=='/speakers'" class="speakers">
+            <p class="text-speakers">Speakers Department</p>
+            <img src="assets\department_pics\speakers\Speakers_no_labels.png" class="giga-image">
+        </div>
+        <div *ngIf="selectedEndpoint=='/it'" class="it">
+            <p class="text-it">IT Department</p>
+            <img src="assets\department_pics\it\IT_no_labels.png" class="giga-image">
+        </div>
+        <div *ngIf="selectedEndpoint=='/marketing'" class="marketing">
+            <p class="text-marketing">Marketing Department</p>
+            <img src="assets\department_pics\marketing\Marketing_no_labels.png" class="giga-image">
+        </div>
+        <div *ngIf="selectedEndpoint=='/sponsorship'" class="sponsorship">
+            <p class="text-sponsorship">Sponsorship Department</p>
+            <img src="assets\department_pics\sponsorship\Sponsorship_no_labels.png" class="giga-image">
+        </div>
+    </div>
+    
+    <div class="card-container"> 
+        <div *ngFor="let person of departmentData">
+            <div class="card" [ngClass]="{'box-shadow-board': selectedEndpoint == '/board',
+                    'box-shadow-speakers': selectedEndpoint == '/speakers',
+                    'box-shadow-it': selectedEndpoint == '/it',
+                    'box-shadow-marketing': selectedEndpoint == '/marketing',
+                    'box-shadow-sponsorship': selectedEndpoint == '/sponsorship'}">
+                    
+                <img class="small-image" src="{{person.picture_url}}">
+                <div class="card-body">
+                    <p class="card-text">{{person.name}}</p>
+                    <p class="card-text">{{person.role}} </p>
+                    <a href = {{person.linkedIn}} target="blank" rel="noopener noreferrer" [ngClass]="{'linkedin-board': selectedEndpoint == '/board',
+                    'linkedin-speakers': selectedEndpoint == '/speakers',
+                    'linkedin-it': selectedEndpoint == '/it',
+                    'linkedin-marketing': selectedEndpoint == '/marketing',
+                    'linkedin-sponsorship': selectedEndpoint == '/sponsorship'}">
+
+                        <fa-icon class="a" [icon]="linkedInIcon"></fa-icon>
+                    </a>
+                    <a href = "mailto:{{person.email}}" target="_blank" rel="noopener noreferrer" target="blank" [ngClass]="{'linkedin-board': selectedEndpoint == '/board',
+                    'email-speakers': selectedEndpoint == '/speakers',
+                    'email-it': selectedEndpoint == '/it',
+                    'email-marketing': selectedEndpoint == '/marketing',
+                    'email-sponsorship': selectedEndpoint == '/sponsorship'}">
+
+                        <fa-icon class="a" [icon]="emailIcon"></fa-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    StartUP@Blagoevgrad 2023 | All rights reserved.
+</div>  
+   
+        
+    

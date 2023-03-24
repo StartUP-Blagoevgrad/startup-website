@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Martin Stanchev",
+        "role": "President",
+        "picture_url": "assets/team_pics/board_pics/stanchevb.png",
+        "linkedIn": "https://www.linkedin.com/in/martin-stanchev-b72a911a9/",
+        "email": "martin.stanchev@startupatblagoevgrad.org"
+    },
+    {
+        "name": "Antonia Rusalieva",
+        "role": "Vice President",
+        "picture_url": "assets/team_pics/board_pics/toncheto.png",
+        "linkedIn": "https://www.linkedin.com/in/antonia-rusalieva-b495021b8/",
+        "email": "antonia.rusalieva@startupatblagoevgrad.org"
+    },
+    {
+        "name": "Elena Zaharieva",
+        "role": "Vice President",
+        "picture_url": "assets/team_pics/board_pics/elizaharieva.png",
+        "linkedIn": "https://www.linkedin.com/in/elena-zaharieva-2884071b6/",
+        "email": "elena.zaharieva@startupatblagoevgrad.org"
+    },
+    {
+        "name": "Kris Petrov",
+        "role": "Treasurer",
+        "picture_url": "assets/team_pics/board_pics/kris.png",
+        "linkedIn": "https://www.linkedin.com/in/kristian-petrov-57466b168/",
+        "email": "kris@startupatblagoevgrad.org"
+    }
+]

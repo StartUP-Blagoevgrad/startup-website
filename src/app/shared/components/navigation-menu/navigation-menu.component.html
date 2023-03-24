@@ -1,0 +1,40 @@
+<nav>
+  <div class="left-side">
+    <button *ngIf="isMobile$ | async" id="hamburger-menu" (click)="toggleMenu()" >
+      <i class="fa fa-bars"></i>
+    </button>
+    <a routerLink="/"><img id="logo" src="./assets/landing-page/logo.png" /></a>
+    <div id="icons" *ngIf="isMobile$ | async" class="right-tab">
+      <fa-icon class="fa-icon" [icon]="faInstagram"></fa-icon>
+      <fa-icon class="fa-icon" [icon]="faFacebook"></fa-icon>
+      <fa-icon class="fa-icon" [icon]="faLinkedin"></fa-icon>
+    </div>
+  </div>
+
+  <div *ngIf="shouldShowMenu(isMobile$ | async)" id="tabs">
+
+    <a routerLink="/home" [ngClass]="{ 'active-tab': currentRoute === '/home' }">
+      HOME
+    </a>
+    <a routerLink="/weekend23" [ngClass]="{ 'active-tab': currentRoute === '/weekend23' }">
+      WEEKEND 2023
+    </a>
+    <a routerLink="/events" [ngClass]="{ 'active-tab': currentRoute === '/events' }">
+      EVENTS
+    </a>
+    <a routerLink="/team" [ngClass]="{ 'active-tab': currentRoute === '/team' }">
+      TEAM
+    </a>
+
+  </div>
+
+  <div *ngIf="shouldShowMenu(isMobile$ | async) && (mobileOrDesktopValue() | async) === 1" id="icons" class="right-tab">
+    <a href="https://www.instagram.com/startupblagoevgrad/" target="_blank"><fa-icon class="fa-icon" [icon]="faInstagram"></fa-icon></a>
+    <a href="https://www.facebook.com/StartUPBlagoevgrad" target="_blank"><fa-icon class="fa-icon" [icon]="faFacebook"></fa-icon></a>
+    <a href="https://www.linkedin.com/company/startup-blagoevgrad" target="_blank"><fa-icon class="fa-icon" [icon]="faLinkedin"></fa-icon></a>
+  </div>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-K9X+pxt0hq2IJH8xv7NijNwCnggz7VcH+8/0Bp1aiHQdX9Jsk1m6ZsRmIjTFwJdNSNWpWUq3PvDy2T6KYX9/DQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</nav>

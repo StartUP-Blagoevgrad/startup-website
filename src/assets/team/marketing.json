@@ -1,0 +1,72 @@
+[
+    {
+		"name": "Emilian Pramatarov",
+		"role": "Head of Department",
+		"picture_url": "assets/team_pics/marketing_pics/emo.png",
+		"linkedIn": "https://www.linkedin.com/in/emilian-pramatarov-a9924b223/",
+		"email": "emilian.pramatarov@startupatblagoevgrad.org"
+	},
+    {
+		"name": "Nikol-Valeri Dimitrova",
+		"role": "Co-head of Department",
+		"picture_url": "assets/team_pics/marketing_pics/nikolcheto.png",
+		"linkedIn": "https://www.linkedin.com/in/nikol-valeri-dimitrova-0a57b0235/",
+		"email": "nikol-valeri.dimitrova@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Asen Dzhalev",
+		"role": "",
+		"picture_url": "assets/team_pics/marketing_pics/asen.png",
+		"linkedIn": "https://www.linkedin.com/in/asen-dzhalev-57023126b",
+		"email": "asen.dzhalev@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Boris Yotov",
+		"role": "",
+		"picture_url": "assets/team_pics/marketing_pics/bobi.png",
+		"linkedIn": "https://www.linkedin.com/in/boris-yotov-774982256/",
+		"email": "boris.yotov@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Leda Markova",
+		"role": "",
+		"picture_url": "assets/team_pics/marketing_pics/leda.png",
+		"linkedIn": "https://www.linkedin.com/in/leda-markova-685a55244/",
+		"email": "leda.markova@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Liliya Lazarova",
+		"role": "",
+		"picture_url": "assets/team_pics/marketing_pics/lilly.png",
+		"linkedIn": "https://www.linkedin.com/in/liliya-lazarova-58323226b",
+		"email": "liliya.lazarova@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Svetlozara Vitanova",
+		"role": "",
+		"picture_url": "assets/team_pics/marketing_pics/zara.png",
+		"linkedIn": "https://www.linkedin.com/in/svetlozara-vitanova-989969230/",
+		"email": "svetlozara.vitanova@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Teodora Vasileva",
+		"role": "",
+		"picture_url": "assets/team_pics/marketing_pics/tedivasileva.png",
+		"linkedIn": "https://www.linkedin.com/in/teodora-vasileva-2a7a9219a/",
+		"email": "teddy.vasileva@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Tony Mladenov",
+		"role": "",
+		"picture_url": "assets/team_pics/marketing_pics/tonimladenov.png",
+		"linkedIn": "https://www.linkedin.com/in/tony-mladenov-5763771b6/",
+		"email": "asen.dzhalev@startupatblagoevgrad.org"
+	},
+	{
+		"name": "Yana Slavcheva",
+		"role": "",
+		"picture_url": "assets/team_pics/marketing_pics/yana.png",
+		"linkedIn": "https://www.linkedin.com/in/yana-slavcheva-6910b2220/",
+		"email": "yana.slavcheva@startupatblagoevgrad.org"
+	}
+]
